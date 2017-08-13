@@ -14,7 +14,7 @@
     },
     "DISPLAY_UNITS": {
       "description": "Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.",
-      "value": "",
+      "value": "mmol",
       "required": false
     },
     "ENABLE": {
