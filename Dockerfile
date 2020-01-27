@@ -12,8 +12,7 @@ RUN apk add --no-cache --virtual .gyp \
         python \
         make \
         g++ \
-    && npm install \
-        npm install && \
+    && npm install && \
         npm run postinstall && \
         npm run env && \
         npm audit fix \
